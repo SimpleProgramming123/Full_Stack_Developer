@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="https://www.youtube.com/@Amardeep_Singh2725" target="_blank"><img src="images/logo1.jpeg" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Amardeep</span> Singh<br>From India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------About----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/amar1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veniam saepe sed itaque porro
+                        alias eum asperiores libero eveniet soluta ipsa blanditiis amet eaque iste quibusdam, sunt
+                        maiores iure qui?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, cumque eaque
+                        molestias neque accusantium modi deleniti accusamus suscipit. Commodi ab, laboriosam accusantium
+                        quia eaque iusto consectetur quisquam laudantium omnis molestiae!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Desiogning Web/App interface</li>
+                            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                            <li><span>App Devlopment</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Beginers</span><br>Desiogning Web/App interface</li>
+                            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                            <li><span>App Devlopment</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>High School -78.5%</li>
+                            <li><span>2021</span><br>Intermediate -80%</li>
+                            <li><span>Currently</span><br>Currently prsuing B Tech CS From Future Group Of
+                                Inistitutions,Bareilly</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------- Services-------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit magnam doloremque dolor dolore
+                        ipsam nulla unde saepe quo veritatis molestias. Officia architecto vitae ex itaque ab et quaerat
+                        iusto exercitationem.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit magnam doloremque dolor dolore
+                        ipsam nulla unde saepe quo veritatis molestias. Officia architecto vitae ex itaque ab et quaerat
+                        iusto exercitationem.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit magnam doloremque dolor dolore
+                        ipsam nulla unde saepe quo veritatis molestias. Officia architecto vitae ex itaque ab et quaerat
+                        iusto exercitationem.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------portfolio--------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/f1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate at iure voluptas
+                            nihil ad dolorum, unde voluptatum quod deleniti amet quae nemo optio voluptates reiciendis
+                            dolorem accusantium enim nisi.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/f2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate at iure voluptas
+                            nihil ad dolorum, unde voluptatum quod deleniti amet quae nemo optio voluptates reiciendis
+                            dolorem accusantium enim nisi.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/f3.jpg">
+                    <div class="layer">
+                        <h3> App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptate at iure voluptas
+                            nihil ad dolorum, unde voluptatum quod deleniti amet quae nemo optio voluptates reiciendis
+                            dolorem accusantium enim nisi.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- --------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>Amar@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                    <div class="social-icon">
+                        <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="cover/saumya singh.png" download class="btn btn2">DownLoad CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name..." required>
+                        <input type="email" name="email" placeholder="Your Email..." required>
+                        <textarea name="Message" cols="6" rows="6" placeholder="Your Message..."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright,Made with<i class="fas fa-heart"></i>Amar</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // --------------------------------------------sidebaar style-----------------------------------------------
+
+        var sidemen = document.getElementById('sidemenu');
+
+        function openmenu() {
+            sidemen.style.right = "0";
+        }
+        function closemenu() {
+            sidemen.style.right = "-200px"
+        }
+
+    </script>
+
+
+</body>
+
+</html>
