@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Developer landing page</title>
+   <link rel="stylesheet" href="style.css" class="css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+   <nav>
+      <div class="menu">
+         <div class="logo">
+            <a href="#">Full Stack Developer</a>
+         </div>
+         <ul id="sidebaar">
+            <li><a href="#" onclick="closemenu()"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#about" onclick="closemenu()"><i class="fa-solid fa-question-circle"></i>About</a></li>
+            <li><a href="#three" onclick="closemenu()"><i class="fa-solid fa-sliders-h"></i>Services</a></li>
+            <li><a href="#contact" onclick="closemenu()"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+            <li><a href="#Feedback" onclick="closemenu()"><i class="fa-solid fa-comment fa-flip-horizontal"></i>Feedback</a></li>
+            <i class="sidemenu fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+         </ul>
+         <i class="sidemenu fa-solid fa-list-ul" id="open" onclick="openmenu()"></i>
+      </div>
+   </nav>
+
+   <section class="hero_section">
+      <div class="text_container">
+         <h2><span class="lg">Hi</span>,Creating A WebSite</h2>
+         <h1 class="lg">FULL STACK DEVELOPER</h1>
+      </div>
+   </section>
+   <div class="black"  id="three">
+      <div class="work">WORK,I CAN DO FOR <span class="y">YOU</span></div>
+   </div>
+
+   <section class="three">
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/bgimage2.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>web Devloper </h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem .</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/mobile app.webp" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>App Devloper</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem .</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/desionui.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>UI/UX Desion</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="three">
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/html.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>Html</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem .</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/css.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>CSS Desion</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem .</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/js.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>Java Script</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <section class="three">
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/python.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>Python</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem .</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/Java.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>Java</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem .</p>
+            </div>
+         </div>
+      </div>
+
+      <div class="grid_item">
+         <div class="card">
+            <div class="img_container">
+               <img src="image/c language.jpg" alt="Load">
+            </div>
+            <div class="card_container">
+               <h3>C Language</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas alias vitae nobis delectus
+                  atque officiis totam? Ducimus dolore distinctio dolorum itaque nobis quas iste obcaecati, dolores,
+                  sunt magni voluptatem.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <div class="section_bottem">
+      <div class="contact">
+         <h3>Contact Me</h3>
+         <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero inventore maiores voluptate delectus, in
+            ratione dolorem pariatur quisquam minus. Quae eos officia consequuntur quod dolores, quos aspernatur facilis
+            repellendus cupiditate perferendis vero? Exercitationem, ipsam!
+         </p>
+         <div class="news_letter">
+            <h3 id="contact" id="contact">Contect Us</h3>
+            <input type="email" placeholder="Enter your email...">
+         </div>
+      </div>
+      <div class="about" id="about">
+         <h3>About Me</h3>
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum nostrum ipsam nisi veritatis beatae
+            amet magni quos facilis, distinctio quam eveniet error adipisci quaerat voluptatem natus eius.
+         <div class="news_letter">
+            <h3>Follow Us</h3>
+            <div class="icon_container" id="Feedback">
+               <div class="icon">
+                  <a href="facebook.com"> <i class="fa-brands fa-facebook-f"></i></a>
+               </div>
+               <div class="icon">
+                  <a href="twitter.com"> <i class="fa-brands fa-twitter"></i></a>
+               </div>
+               <div class="icon">
+                  <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+               </div>
+               <div class="icon">
+                  <a href="https://www.google.com"><i class="fa-brands fa-google"></i></a>
+               </div>
+               <div class="icon">
+                  <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer>
+      *It is amazin progect made by Amardeep Singh*
+   </footer>
+
+
+
+   <script>
+      var sidebaar = document.getElementById("sidebaar");
+      var opan = document.getElementById("open");
+
+      function openmenu() {
+         sidebaar.style.top = "0"
+         opan.style.opacity = "0"
+      }
+      function closemenu() {
+         sidebaar.style.top = "-100vh"
+         opan.style.opacity = "1"
+      }
+
+   </script>
+</body>
+
+</html>
